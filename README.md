@@ -1,69 +1,21 @@
-# React + TypeScript + Vite
+🇧🇷 Versão em Português
+✅ ToDo List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de lista de tarefas desenvolvido com React, TypeScript e Vite, criado no início dos meus estudos em Desenvolvimento Front-End, com foco na prática de conceitos fundamentais de componentização, estado e organização da aplicação.
 
-Currently, two official plugins are available:
+A aplicação possui persistência de dados, permitindo que as tarefas permaneçam salvas mesmo após o recarregamento da página, reforçando o aprendizado sobre gerenciamento de estado e armazenamento local no navegador.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+O projeto foi desenvolvido utilizando React, TypeScript e Vite, garantindo uma base moderna, tipada e com boa performance.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🇺🇸 English Version
+✅ ToDo List
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+This project is a task management application built with React, TypeScript, and Vite, developed at the beginning of my Front-End Development studies, focusing on practicing fundamental concepts such as componentization, state management, and application structure.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+The application includes data persistence, allowing tasks to remain saved even after the page is refreshed, reinforcing learning around state handling and browser-based storage.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🛠️ Technologies Used
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+The project was built using React, TypeS
